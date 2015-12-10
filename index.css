@@ -1,0 +1,122 @@
+@font-face {
+    font-family: stark;
+    src: url(Fonts/Stark.otf);
+}
+@font-face {
+    font-family: magra;
+    src: url(Fonts/Magra-Regular.ttf);
+}
+body {
+    /*background: linear-gradient(to right, blue, green, pink, purple);*/
+    background-color:#82CAFA;
+    font-family:stark;
+}
+a {
+    text-decoration:none;
+    color:inherit;
+}
+#header {
+    margin-top:-1em;
+    margin-left:-1em;
+    margin-right:0em;
+    height: 3.5em;
+    width: 84.95em;
+    position:absolute;
+    overflow:hidden;
+    z-index: 100;
+    background-color:black;
+}
+#logo {
+    margin-top:.2em;
+    margin-left:.95em;
+    width:59%;
+    cursor:pointer;
+}
+#logo:hover {
+    opacity:.8;
+}
+.headerLeft {
+    margin-top:.3em;
+    float: left;
+    width:20em;
+    margin-left:10.8em;
+}
+.headerRight {
+    margin-top:.3em;
+    float: left;
+    width:36em;
+    height:4em;
+    margin-left:5em;
+}
+.clicky {
+    margin-left: auto;
+    margin-right: 4em;
+    text-align:center;
+    margin-top:.4em;
+    font-size:1.4em;
+    border-radius:.5em;
+    background-color:black;
+    border:orange;
+    color:white;
+    font-family: stark;
+    cursor:pointer;
+}
+.clicky:hover {
+    opacity:.6;
+}
+#main {
+    background-color:white;
+    height:auto;
+    width:62em;
+    margin-top:2.5em;
+    position:absolute;
+    margin-left:10.8em;
+    margin-bottom:1em;
+}
+.galleryImages {
+    width:70%;
+    height:70%;
+    margin-left:9.3em;
+    margin-top:.5em;
+}
+.title{
+    margin-left:.3em;
+}
+.text{
+    margin-left:.9em;
+}
+
+#asdf{
+    height:50em;
+}
+
+#socialMedia {
+    margin-left:auto;
+    margin-right:auto;
+    width:16em;
+}
+.socialButtons {
+    width:2em;
+    height:2em;
+    margin-left:.5em;
+    margin-right:.5em;
+}
+.socialButtons:hover {
+    transform:scale(1.2);
+}
+.footer {
+    text-align:center;
+}
+.subFoot {
+    color:gray;
+    font-size:.7em;
+    display: inline-block;
+    margin-left:.5em;
+    margin-right:.5em;
+}
+.subFoot:hover {
+    color:black;
+    cursor:pointer;
+}
+#copyright {
+}
