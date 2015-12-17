@@ -29,11 +29,11 @@ a {
 #logo {
     margin-top:.2em;
     margin-left:.95em;
-    width:59%;
+    width:67%;
     cursor:pointer;
 }
 #logo:hover {
-    opacity:.8;
+    opacity:.9;
 }
 .headerLeft {
     margin-top:.3em;
@@ -49,17 +49,17 @@ a {
     margin-left:5em;
 }
 .clicky {
+    background-color:black;
+    color:white;
+    border:orange;
+    font-family: stark;
+    cursor:pointer;
     margin-left: auto;
     margin-right: 4em;
     text-align:center;
     margin-top:.4em;
     font-size:1.4em;
     border-radius:.5em;
-    background-color:black;
-    border:orange;
-    color:white;
-    font-family: stark;
-    cursor:pointer;
 }
 .clicky:hover {
     opacity:.6;
@@ -73,17 +73,18 @@ a {
     margin-left:10.8em;
     margin-bottom:1em;
 }
+#gallery{
+    margin-top:.75em;
+}
 .galleryImages {
     width:70%;
     height:70%;
     margin-left:9.3em;
-    margin-top:.5em;
 }
 iframe{
     width: 40em;
     height: 25em;
     margin-left:11em;
-    margin-top:.75em;
 }
 .title{
     margin-left:.3em;
