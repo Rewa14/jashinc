@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: magra;
-    src: url(Fonts/Magra-Regular.ttf);
+    src: url(Fonts/Magra.ttf);
 }
 body {
     /*background: linear-gradient(to right, blue, green, pink, purple);*/
@@ -17,18 +17,17 @@ a {
 }
 #header {
     margin-top:-1em;
-    margin-left:-1em;
+    margin-left:-.55em;
     margin-right:0em;
-    height: 3.5em;
-    width: 84.95em;
+    height: 3.3em;
+    width: 90.1em;
     position:absolute;
     overflow:hidden;
     z-index: 100;
     background-color:black;
 }
 #logo {
-    margin-top:.2em;
-    margin-left:.95em;
+    margin-top:.05em;
     width:67%;
     cursor:pointer;
 }
@@ -39,7 +38,7 @@ a {
     margin-top:.3em;
     float: left;
     width:20em;
-    margin-left:10.8em;
+    margin-left:14.316em;
 }
 .headerRight {
     margin-top:.3em;
@@ -68,9 +67,9 @@ a {
     background-color:white;
     height:auto;
     width:62em;
-    margin-top:2.5em;
+    margin-top:2.3em;
     position:absolute;
-    margin-left:10.8em;
+    margin-left:13.775em;
     margin-bottom:1em;
 }
 #gallery{
@@ -126,4 +125,5 @@ iframe{
     cursor:pointer;
 }
 #copyright {
+    margin-bottom:.5em;
 }
